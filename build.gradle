@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+group = 'space.sirdir'
+version = '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+dependencies {
+    testCompile 'org.seleniumhq.selenium:selenium-java:3.4.0'
+    testCompile 'io.github.bonigarcia:webdrivermanager:1.7.1'
+    testCompile 'junit:junit:4.12'
+    testCompile 'net.lightbody.bmp:browsermob-core:2.1.4'
+}
